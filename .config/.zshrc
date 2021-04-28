@@ -30,7 +30,7 @@ alias mkdir='mkdir -p'
 alias vc='vim ~/.vim/vimrc'
 alias python='python3'
 alias pip='pip3'
-alias config='/usr/bin/git --git-dir=$HOME/stuff/dotfiles/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/stuff/dotfiles/ --work-tree=$HOME/stuff'
 # Use modern completion system
 autoload -Uz compinit
 zstyle ':completion:*' menu select
