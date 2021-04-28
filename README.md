@@ -1,14 +1,6 @@
-# Sapphire OS
+# SDotfiles
 
-*Sapphire OS is a Linux Distribution based off Arch, centered around minimalism, aesthetics, and usability.*
-
-*Note: SapphireOS is still being developed*
-
-## Who is Sapphire OS targeted towards?
-
-- [x] Users who appreciate an aesthetic desktop
-- [x] Users new to standalone window managers
-- [x] Users new to Arch Linux
+These are my dotfiles, its late and I'm tired so I'm going to do this tomorrow.
 
  ## Table of Contents
 
