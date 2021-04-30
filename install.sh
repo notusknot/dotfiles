@@ -31,5 +31,8 @@ git clone https://github.com/romkatv/powerlevel10k $HOME/stuff/scripts/powerleve
 echo "Installing zsh-syntax-highlighting"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting $HOME/stuff/scripts/zsh-syntax-highlighting
 
+# wallpaper
+[ ! -d "$HOME/stuff/pictures/wallpapers" ] && mkdir -p $HOME/stuff/pictures/wallpapers
+cp -r $PWD/nord.jpg $HOME/stuff/pictures/wallpapers
 
 bspc wm -r
