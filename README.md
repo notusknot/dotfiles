@@ -26,7 +26,10 @@ Obviously, if you don't want to use any of these programs for whatever reason, y
 
 ***Note**: please read the install script before running it.*
 To install my dotfiles, you can use the automated install script:
-```curl -fssl https://raw.githubusercontent.com/notusknot/dotfiles/main/install.sh | bash```
+- ```git clone https://github.com/notusknot/dotfiles```
+- ```cd dotfiles```
+- ```chmod +x install.sh```
+- ```./install.sh```
 
 If you don't trust it, you can clone the repo and manually move the files into all the proper locations. 
 
