@@ -14,9 +14,7 @@ SAVEHIST=1000
 HISTFILE=~/.cache/.zsh_history
 
 # Aliases
-alias sudo='doas'
 alias v='vim'
-alias sv='doas vim'
 alias c='clear'
 alias p='vim ~/.config/picom.conf'
 alias u='vim ~/.config/.Xresources'
@@ -24,13 +22,13 @@ alias b='vim ~/.config/bspwm/bspwmrc'
 alias sx='vim ~/.config/sxhkd/sxhkdrc'
 alias z='vim ~/.config/.zshrc'
 alias po='vim ~/.config/polybar/config'
-alias nerdfetch='curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/NerdFetch/master/nerdfetch | sh'
-alias pi='mullvad disconnect && ssh pi@10.0.0.187'
 alias mkdir='mkdir -p'
-alias vc='vim ~/.vim/vimrc'
 alias python='python3'
 alias pip='pip3'
-alias config='/usr/bin/git --git-dir=$HOME/stuff/dotfiles/ --work-tree=$HOME/stuff'
+alias config='sudo vim /etc/nixos/configuration.nix'
+alias rebuild='sudo nixos-rebuild switch'
+alias ls='ls --color=auto'
+alias grep='grep --colour=auto'
 # Use modern completion system
 autoload -Uz compinit
 zstyle ':completion:*' menu select
@@ -41,6 +39,7 @@ _comp_options+=(globdots)
 
 eval "$(dircolors -b)"
 
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
+
+source /$HOME/stuff/scripts/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.config/.p10k.zsh ]] || source ~/.config/.p10k.zsh
+source /$HOME/stuff/scripts/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -1,0 +1,23 @@
+@import url('userChrome.css');
+
+/* Removes the white loading page */
+/* url(about:newtab), url(about:home) */
+@-moz-document url(about:blank) {
+	html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay {
+		background: var(--bf-bg) !important;
+	}
+}
+
+/* Sets up minimal scrollbar */
+:root {
+	scrollbar-width: none !important;
+	scrollbar-color: rgb(161, 161, 161) transparent !important;
+}
+
+/*  Sets up minimal incognito scrollbar */
+@-moz-document url(about:privatebrowsing) {
+	:root{
+		scrollbar-width: none !important;
+		scrollbar-color: rgb(161, 161, 161) transparent !important;
+	}
+}
