@@ -9,7 +9,7 @@ These are my dotfiles. Feel free to look around, copy, or fork and modify.
 - [Documentation](#documentation)
 
 ## Screenshots
-
+![Screenshot-of-my-rice](https://github.com/notusknot/dotfiles/blob/7f158a08780e8f8246031df5aab5574c5012f183/screenshots/rice.png)
 
 ## Installation
 
