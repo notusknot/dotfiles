@@ -28,8 +28,13 @@ cp -r $PWD/.config/.zshrc $HOME/.zshrc
 cp -r $PWD/.config/.zshrc $HOME/.config/.zshrc
 echo "Installing powerlevel10k..."
 git clone https://github.com/romkatv/powerlevel10k $HOME/stuff/scripts/powerlevel10k/
-echo "Installing zsh-syntax-highlighting"
+echo "Installing zsh-syntax-highlighting..."
 git clone https://github.com/zsh-users/zsh-syntax-highlighting $HOME/stuff/scripts/zsh-syntax-highlighting
+
+# font
+echo "Installing Iosevka nerd font..."
+[ ! -d "$HOME/.local/share/Iosevka" ] && mkdir -p $HOME/.local/share/Iosevka
+git clone https://github.com/notusknot/Iosevka-nerd $HOME/.local/share/fonts/Iosevka
 
 # wallpaper
 [ ! -d "$HOME/stuff/pictures/wallpapers" ] && mkdir -p $HOME/stuff/pictures/wallpapers

@@ -24,7 +24,7 @@ Dependencies:
 
 Obviously, if you don't want to use any of these programs for whatever reason, you don't have to install them. The install script will still apply the themes to all the other programs.
 
-***Note**: please read the install script before running it.*
+***Note**: please read the install script and make a backup of your current configs before running it.*
 To install my dotfiles, you can use the automated install script:
 - ```git clone https://github.com/notusknot/dotfiles```
 - ```cd dotfiles```
