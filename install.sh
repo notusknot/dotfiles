@@ -26,9 +26,9 @@ cp -r $PWD/.config/picom.conf* $HOME/.config/picom.conf
 # zsh config
 cp -r $PWD/.config/.zshrc $HOME/.zshrc
 cp -r $PWD/.config/.zshrc $HOME/.config/.zshrc
-echo "Installing powerlevel10k..."
-git clone https://github.com/romkatv/powerlevel10k $HOME/stuff/scripts/powerlevel10k/
-echo "Installing zsh-syntax-highlighting..."
+
+echo "Installing zsh plugins..."
+cp -r  $PWD/scripts/* $HOME/stuff/scripts/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting $HOME/stuff/scripts/zsh-syntax-highlighting
 
 # font
