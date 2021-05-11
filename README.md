@@ -1,6 +1,7 @@
 # Dotfiles
 
-These are my dotfiles. Feel free to look around, copy, or fork and modify. 
+**These are not my main dotfiles. I currently use home-manager on NixOS to manage my configurations. The install script will work for most distros, and this repo will still be updated, but not as often as my main one. If you use home-manager and want my configuration, please visit the [main repo](https://github.com/notusknot/dotfiles-nix)**
+
 
  ## Table of Contents
 
@@ -28,7 +29,6 @@ Obviously, if you don't want to use any of these programs for whatever reason, y
 To install my dotfiles, you can use the automated install script:
 - ```git clone https://github.com/notusknot/dotfiles```
 - ```cd dotfiles```
-- ```chmod +x install.sh```
 - ```./install.sh```
 
 If you don't trust it, you can clone the repo and manually move the files into all the proper locations. 
@@ -37,7 +37,7 @@ If you don't trust it, you can clone the repo and manually move the files into a
 
 These are my configuration files for the programs listed in the [installation instructions.](#installation)
 
-My window manager of choice is ```bspwm```. I use ot because I like how simple it is to configure while still being relatively powerfull and extensible. If you want to learn how to use it better, check out [my tutorial](https://youtu.be/_55HGnz422M) for it. To manage keybinds, I use ```sxhkd``` because it works well and was made to seamlessly integrate with bspwm.
+My window manager of choice is ```bspwm```. I use it because I like how simple it is to configure while still being relatively powerfull and extensible. If you want to learn how to use it better, check out [my tutorial](https://youtu.be/_55HGnz422M) for it. To manage keybinds, I use ```sxhkd``` because it works well and was made to seamlessly integrate with bspwm.
 
 
 **If you want more documentation, feel free to submit an issue or contact me on Discord: ```notusknot#5622```. More files coming soon...**
