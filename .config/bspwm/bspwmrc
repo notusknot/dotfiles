@@ -8,7 +8,6 @@ dunst -conf $HOME/.config/dunst/dunstrc &
 pgrep -x sxhkd > /dev/null || sxhkd &
 picom &
 feh --bg-fill --randomize $HOME/stuff/pictures/wallpapers/* &
-rm -rf $HOME/Downloads &
 $HOME/.config/polybar/launch.sh &
 # Workspaces
 bspc monitor -d I II III IV V
